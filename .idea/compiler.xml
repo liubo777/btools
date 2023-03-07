@@ -6,17 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="btools" />
+        <module name="btools-es" />
+        <module name="btools-boot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="btools" target="1.8" />
+      <module name="btools-boot" target="8" />
+      <module name="btools-es" target="8" />
       <module name="btools-parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="btools" options="-parameters" />
+      <module name="btools-boot" options="-parameters" />
+      <module name="btools-es" options="-parameters" />
     </option>
   </component>
 </project>

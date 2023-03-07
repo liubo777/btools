@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/btools.iml" filepath="$PROJECT_DIR$/.idea/btools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/btools-boot/btools-boot.iml" filepath="$PROJECT_DIR$/btools-boot/btools-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/btools-es/btools-es.iml" filepath="$PROJECT_DIR$/btools-es/btools-es.iml" />
     </modules>
   </component>
 </project>
